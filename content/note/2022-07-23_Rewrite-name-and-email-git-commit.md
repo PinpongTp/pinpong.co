@@ -33,14 +33,6 @@ git change-commits GIT_AUTHOR_EMAIL "old@email.com" "new@email.com" HEAD~10..HEA
 
 พอจะ push ให้ push -f เพราะเราแก้ไข commit local ไปครับ
 
-> ถ้าเกิดปัญหา ... ไม่ยอมทำงานเพิ่ม -f ต่อไปตามนี้
->
-> ```
-> git change-commits GIT_AUTHOR_EMAIL "old email" "new email" -f
-> ```
-
-_ref:_ _https://www.swyx.io/css-100-bytes/_
-
 ---
 
 _Pinpong_ _Tongpat_
