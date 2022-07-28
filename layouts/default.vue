@@ -3,14 +3,12 @@
     <Header />
     <nav className="d-flex flex-row-reverse">
       <nuxt-link to="/">Home</nuxt-link> |
+      <nuxt-link to="/about">About</nuxt-link> |
       <nuxt-link to="/mystyle">MyStyle</nuxt-link> |
-      <nuxt-link to="/notes">Note</nuxt-link> |
+      <nuxt-link to="/notes">Notes</nuxt-link> |
       <nuxt-link to="/contact">Contact</nuxt-link>
       <hr />
     </nav>
-    <div class="breadcrumbs">
-      <h3>Home</h3>
-    </div>
     <Nuxt />
   </div>
 </template>
@@ -36,6 +34,10 @@ html {
 a {
   color: chocolate;
   text-decoration: none;
+}
+
+nav a.nuxt-link-exact-active {
+  border-bottom: 2px solid chocolate;
 }
 
 body {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-for="article of articles" :key="article">
+    <div v-for="article of articles" :key="article.slug">
       <nuxt-link :to="{ path: `/note/${article.slug}` }">
         <div class="article-inner">
           <div class="detail">
