@@ -26,6 +26,41 @@
       เรื่องราวหลายเรื่องที่จะบันทึกมีทั้งแนวคิด วิธีคิด วิธีทำ และเทคนิคต่างๆ
       ไว้จะมาบันทึกไว้บ่อยๆนะครับ
     </p>
+
+    <br />
+    <br />
+
+    <p><b>Contact</b><br /></p>
+    <table>
+      <tbody>
+        <tr>
+          <td>Name:</td>
+          <td>Pinpong Tongpat (Pin)</td>
+        </tr>
+        <tr>
+          <td>TH:</td>
+          <td>ปิ่นพงศ์ ทองพัด (ปิ่น)</td>
+        </tr>
+        <tr>
+          <td>Tel:</td>
+          <td>081-596-7897</td>
+        </tr>
+
+        <tr>
+          <td>Email:</td>
+          <td>pinpong.tp@gmail.com</td>
+        </tr>
+
+        <tr>
+          <td>Git :</td>
+          <td>github.com/PinpongTp</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>
+      <small>Copyright 2022 by Pinpong. All Rights Reserved.</small>
+    </p>
   </div>
 </template>
 

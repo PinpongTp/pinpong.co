@@ -3,10 +3,8 @@
     <Header />
     <nav className="d-flex flex-row-reverse">
       <nuxt-link to="/">Home</nuxt-link> |
-      <nuxt-link to="/about">About</nuxt-link> |
-      <nuxt-link to="/mystyle">MyStyle</nuxt-link> |
       <nuxt-link to="/notes">Notes</nuxt-link> |
-      <nuxt-link to="/contact">Contact</nuxt-link>
+      <nuxt-link to="/about">About</nuxt-link> |
       <hr />
     </nav>
     <Nuxt />
