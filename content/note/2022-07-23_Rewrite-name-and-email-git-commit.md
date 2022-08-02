@@ -2,6 +2,7 @@
 title: วิธีเปลี่ยน user.name และ user.email ของ commit เก่าใน git
 description: วิธีเปลี่ยน user.name และ user.email ของ commit เก่าใน git
 slug: 2022-07-23_Rewrite-name-and-email-git-commit
+category: Tips
 img: blog-1.jpg
 ---
 

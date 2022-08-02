@@ -1,38 +1,47 @@
 <template>
   <div>
-    <p>
-      Hello, my name is Pinpong Tongpat (Pin). <br />
-      I am full stack web developer.
-    </p>
-    <nuxt-img preload src="/profile.jpg" />
-
-    <p>
-      สวัสดีผมเป็น dev เดปไม่ได้หมายถึงคนเขียนโปรแกรม แต่หมายถึงนักพัฒนา
-      และความหมายของผมต่างไปจากนั้นอีก นักพัฒนาที่ไม่ได้พัฒนาแค่ผลงาน
-      แต่ยังหมายถึงพัฒนาตัวเอง อย่างสม่ำเสมอ เดปไม่เคยหยุดและหยุดไม่ได้
-    </p>
-    <p>
-      เว็บไซต์นี้เป็นพื้นที่สำหรับเรียนรู้
-      ส่วนใหญ่ก็คงเป็นตัวผมเองที่ได้เรียนรู้ก่อนที่จะเอามาบันทึกที่นี่
-      บันทึกไว้เพื่อให้ตัวเองได้มาอ่านในอนาคตเผื่อจะลืมไป
-      กลับมาอ่านความคิดของเด็กคนนึงว่าคิดอะไรยังไงในช่วงเวลานั้นๆ
-    </p>
-    <p>
-      ปฏิเสธไม่ได้นะว่าเราไม่มีทางจำอะไรได้หมดอยู่แล้วถึงแม้จะทำมันบ่อยๆก็ตาม
-      และหากเราไม่ต้องเครียดว่าจะจำหมดไหม
-      ไว้ค่อยกลับมาอ่านเดี้ยวก็นึกขึ้นได้เองก็คงจะเบาสมองไม่น้อย
-    </p>
-    <p>
-      เรื่องราวหลายเรื่องที่จะบันทึกมีทั้งแนวคิด วิธีคิด วิธีทำ และเทคนิคต่างๆ
-      ไว้จะมาบันทึกไว้บ่อยๆนะครับ
-    </p>
+    <div class="block">
+      <p>
+        สวัสดีครับ ผมรวมโน็ตวิธีการเทคนิคต่างๆในการเขียนโปรแกรมไว้เพื่อกันลืม
+        และเผื่อจะเป็นข้อมูลให้เพื่อนๆได้ครับ ดูโน็ตทั้งหมดได้ที่หน้าโน็ตเลยครับ
+        หากมีคำถามหรืออยากได้คำแนะนำติดต่อได้ครับ
+      </p>
+    </div>
+    <div class="noteList">
+      <div v-for="article of articles" :key="article.slug" class="noteItem">
+        <nuxt-link :to="{ path: `/note/${article.slug}` }">
+          <p>{{ article.title }}</p>
+        </nuxt-link>
+        <p style="color: #333">{{ article.description }}</p>
+        <hr />
+      </div>
+    </div>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-
 export default Vue.extend({
-  name: 'IndexPage',
+  name: 'HomePage',
+  async asyncData({ $content, params }) {
+    const articles = await $content('note', params.slug)
+      .only(['title', 'description', 'slug'])
+      .sortBy('path', 'desc')
+      .fetch()
+    return {
+      articles,
+    }
+  },
 })
 </script>
+
+<style scoped>
+.noteItem {
+  padding-top: 1em;
+}
+
+hr {
+  border-top: chocolate 1px solid;
+  opacity: 0.25;
+}
+</style>

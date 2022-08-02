@@ -1,11 +1,16 @@
 ---
 title: My todo list
-description: todo list สำหรับสิ่งทีี่ต้องทำต้องศึกษาเพิ่ม
+description: todo list สำหรับสิ่งที่ต้องทำต้องศึกษาเพิ่ม
 slug: 2022-07-31_My-todo-list
+category: Note
 img: blog-1.jpg
 ---
 
 # My todo list
+
+## list for my web
+
+- add category
 
 ## list for lean
 
