@@ -1,5 +1,5 @@
 ---
-title: ทำ blog ด้วย nuxtjs markdonw content
+title: ทำ blog ด้วย nuxtjs markdown content
 description: ย้ายบ้านมา nuxtjs ตัวเดียวอันเดียว
 slug: 2022-07-23_Move-to-nuxt-js-markdown
 category: Tips
