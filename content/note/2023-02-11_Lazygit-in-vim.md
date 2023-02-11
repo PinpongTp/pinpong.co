@@ -7,9 +7,9 @@ tags: Neovim
 img: blog-1.jpg
 ---
 
-![Untitled](/content/img/2023-02-11_Lazygit-in-vim_img-01.png)
+# เมื่อผมพยายามที่จะใช้คีย์บอร์ดให้มากที่สุดในการเขียนโปรแกรม Lazygit เป็น git gui client ที่ผมใช้
 
-### เมื่อผมพยายามที่จะใช้คีย์บอร์ดให้มากที่สุดในการเขียนโปรแกรม Lazygit เป็น git gui client ที่หลายๆคนเลือกใช้
+![Untitled](/content/img/2023-02-11_Lazygit-in-vim_img-01.png)
 
 ### เกริ่นนำ
 
