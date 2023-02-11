@@ -91,3 +91,5 @@ sw.*
 
 # filebase
 .firebase/
+/.firebase
+.firebase
