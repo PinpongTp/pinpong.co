@@ -38,6 +38,14 @@ nav a.nuxt-link-exact-active {
   border-bottom: 2px solid chocolate;
 }
 
+.tags {
+  color: #fff;
+  background-color: chocolate;
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+}
+
 body {
   overflow-y: scroll;
 }
