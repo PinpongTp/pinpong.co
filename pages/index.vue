@@ -10,7 +10,10 @@
     <div class="noteList">
       <div v-for="article of articles" :key="article.slug" class="noteItem">
         <nuxt-link :to="{ path: `/note/${article.slug}` }">
-          <p>{{ article.title }}</p>
+          <p>
+            {{ article.title }}
+            <span class="tags" v-if="article.tags">{{ article.tags }}</span>
+          </p>
         </nuxt-link>
         <p style="color: #333">{{ article.description }}</p>
         <hr />
@@ -25,7 +28,7 @@ export default Vue.extend({
   name: 'HomePage',
   async asyncData({ $content, params }) {
     const articles = await $content('note', params.slug)
-      .only(['title', 'description', 'slug'])
+      .only(['title', 'description', 'slug', 'tags'])
       .sortBy('path', 'desc')
       .fetch()
     return {
