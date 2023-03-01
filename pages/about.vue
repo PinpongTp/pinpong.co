@@ -48,12 +48,20 @@
 
         <tr>
           <td>Email:</td>
-          <td>pinpong.tp@gmail.com</td>
+          <td>
+            <a href="mailto:pinpong.tp@gmail.com" target="_blank"
+              >pinpong.tp@gmail.com</a
+            >
+          </td>
         </tr>
 
         <tr>
           <td>Git :</td>
-          <td>github.com/PinpongTp</td>
+          <td>
+            <a href="https://github.com/PinpongTp" target="_blank"
+              >github.com/PinpongTp</a
+            >
+          </td>
         </tr>
       </tbody>
     </table>
