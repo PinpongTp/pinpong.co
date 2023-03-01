@@ -6,7 +6,10 @@
         <nuxt-link :to="{ path: `/note/${tip.slug}` }">
           <div class="article-inner">
             <div class="detail">
-              <p>{{ tip.title }}</p>
+              <p>
+                {{ tip.title }}
+                <span class="tags" v-if="tip.tags">{{ tip.tags }}</span>
+              </p>
             </div>
           </div>
         </nuxt-link>
@@ -33,7 +36,7 @@ export default Vue.extend({
   name: 'NotePage',
   async asyncData({ $content, params }) {
     const tips = await $content('note', params.slug)
-      .only(['title', 'description', 'slug'])
+      .only(['title', 'description', 'slug', 'tags'])
       .where({ category: 'Tips' })
       .sortBy('path', 'asc')
       .fetch()
