@@ -21,7 +21,10 @@
         <nuxt-link :to="{ path: `/note/${note.slug}` }">
           <div class="article-inner">
             <div class="detail">
-              <p>{{ note.title }}</p>
+              <p>
+                {{ note.title }}
+                <span class="tags" v-if="note.tags">{{ note.tags }}</span>
+              </p>
             </div>
           </div>
         </nuxt-link>
