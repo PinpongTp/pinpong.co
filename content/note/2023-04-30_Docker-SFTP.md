@@ -19,13 +19,13 @@ img: blog-1.jpg
 git clone git@github.com:PinpongTp/sftp-docker.git
 ```
 
-1. run docker-compose file
+2. run docker-compose file
 
 ```bash
 docker-compose -up -d
 ```
 
-1. login sftp ได้โดยใช้ username ‘demo’ password ‘demo’ หรือ config ที่ file config.sftp.json
+3. login sftp ได้โดยใช้ username ‘demo’ password ‘demo’ หรือ config ที่ file config.sftp.json
 
 ```json
 {
