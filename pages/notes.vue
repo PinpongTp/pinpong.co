@@ -60,5 +60,10 @@ export default Vue.extend({
       notes,
     }
   },
+  head() {
+    return {
+      title: `Notes | Pinpong.co`,
+    }
+  },
 })
 </script>

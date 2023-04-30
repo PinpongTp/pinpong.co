@@ -33,6 +33,11 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'ContackPage',
+  name: 'ContactPage',
+  head() {
+    return {
+      title: `Contact me | Pinpong.co`,
+    }
+  },
 })
 </script>
