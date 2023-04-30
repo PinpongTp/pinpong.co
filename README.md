@@ -26,3 +26,9 @@ $ yarn generate
 # step 2
 $ firebase deploy
 ```
+
+### or run by single command
+
+```bash
+$ yarn deploy
+```
