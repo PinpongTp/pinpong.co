@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'pinpong.co.4',
+    title: 'Pinpong.co',
     htmlAttrs: {
       lang: 'en',
     },
