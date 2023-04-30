@@ -8,7 +8,9 @@
             <div class="detail">
               <p>
                 {{ tip.title }}
-                <span class="tags" v-if="tip.tags">{{ tip.tags }}</span>
+                <span class="tags" v-for="tag of tip.tags" :key="tag">{{
+                  tag
+                }}</span>
               </p>
             </div>
           </div>
@@ -23,6 +25,9 @@
             <div class="detail">
               <p>
                 {{ note.title }}
+                <span class="tags" v-for="tag of note.tags" :key="tag">{{
+                  tag
+                }}</span>
                 <span class="tags" v-if="note.tags">{{ note.tags }}</span>
               </p>
             </div>

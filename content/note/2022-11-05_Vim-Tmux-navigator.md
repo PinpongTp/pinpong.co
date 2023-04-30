@@ -3,7 +3,7 @@ title: Plugin ที่ใช้คู่กับ tmux และ neovim
 description: Plugin ที่ใช้คู่กับ tmux และ neovim (vim-tmux-navigator)
 slug: 2022-11-05_Vim-Tmux-navigator
 category: Tips
-tags: Neovim
+tags: [Neovim]
 img: blog-1.jpg
 ---
 

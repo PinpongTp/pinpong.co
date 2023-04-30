@@ -3,7 +3,7 @@ title: Lazygit in vim
 description: Lazygit terminal UI for git commands
 slug: 2023-02-11_Lazygit-in-vim
 category: Tips
-tags: Neovim
+tags: [Neovim]
 img: blog-1.jpg
 ---
 

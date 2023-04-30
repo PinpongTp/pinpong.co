@@ -12,7 +12,9 @@
         <nuxt-link :to="{ path: `/note/${article.slug}` }">
           <p>
             {{ article.title }}
-            <span class="tags" v-if="article.tags">{{ article.tags }}</span>
+            <span class="tags" v-for="tag of article.tags" :key="tag">{{
+              tag
+            }}</span>
           </p>
         </nuxt-link>
         <p style="color: #333">{{ article.description }}</p>

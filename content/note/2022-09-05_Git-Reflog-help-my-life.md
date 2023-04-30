@@ -3,7 +3,7 @@ title: git reflog ช่วยชีวิต
 description: วิธีการใช้ git reflog (การ redo git เมื่อเผลอ reset hard ไป)
 slug: 2022-09-05_Git-Reflog-help-my-life
 category: Tips
-tags: Git
+tags: [Git]
 img: blog-1.jpg
 ---
 
