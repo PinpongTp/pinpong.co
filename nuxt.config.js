@@ -14,7 +14,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: `Welcome to Pinpong Tongpat's personal website, located at pinpong.co! As a talented web developer, I specialize in creating stunning and functional web applications. My expertise in front-end and back-end development allows me to provide comprehensive solutions for all your web development needs. Whether you're looking to build a responsive website, integrate a database, or bring your digital vision to life, I'm here to help. Check out my portfolio and see for yourself why I'm the web developer you've been looking for. Get in touch with me today at pinpong.co to discuss your next project.`,
+        content: `Pinpong Tongpat's personal website, รวบรวมโน็ตวิธีการเทคนิคต่างๆในการเขียนโปรแกรมไว้เพื่อกันลืม และเผื่อจะเป็นข้อมูลให้เพื่อนๆ. ยินดีให้คำปรึกษา ในการเขียนโปรแกรม และเว็บไซต์ทุกรูปแบบ.`,
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
