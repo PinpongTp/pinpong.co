@@ -2,7 +2,27 @@
   <header>
     <div className="d-flex justify-content-between align-items-end">
       <div className="">
-        <h1>Pinpong.co</h1>
+        <table>
+          <tr>
+            <td>
+              <h1>Pinpong.co</h1>
+            </td>
+            <td>
+              <a
+                href="https://webring.wonderful.software#YOUR.DOMAIN"
+                title="วงแหวนเว็บ"
+              >
+                <img
+                  style="width: auto"
+                  alt="วงแหวนเว็บ"
+                  width="28"
+                  height="28"
+                  src="https://webring.wonderful.software/webring.black.svg"
+                />
+              </a>
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
   </header>
