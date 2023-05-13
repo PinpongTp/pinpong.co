@@ -9,7 +9,7 @@
             </td>
             <td>
               <a
-                href="https://webring.wonderful.software#pinpong.co"
+                href="https://webring.wonderful.software/#/pinpong.co"
                 title="วงแหวนเว็บ"
               >
                 <img
