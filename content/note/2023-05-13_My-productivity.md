@@ -1,8 +1,8 @@
 ---
 title: พูดถึงการเพิ่ม productivity ของผมเอง
-description: พูดถึงการเพิ่ม productivity ของผมเอง
+description: ปัจจัยที่ทำให้ผมสามารถจดจ่ออยู่กับงานได้นานขึ้น
 slug: 2023-05-13_My-productivity
-category: Tips
+category: Note
 tags: []
 img: blog-1.jpg
 ---
