@@ -1,4 +1,4 @@
-# pinpong.co.4
+# pinpong.co
 
 ## Build Setup
 
@@ -32,3 +32,15 @@ $ firebase deploy
 ```bash
 $ yarn deploy
 ```
+
+### phase 2
+
+- [ ] add comment block
+- [ ] change deploy auto form github
+- [x] rename project in github
+- [ ] rename project in firebase
+- [ ] rename preject in google analytics
+- [ ] add like btn for notes
+- [ ] add rss service
+- [ ] add web icons
+- [ ] add view images
