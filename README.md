@@ -11,6 +11,7 @@
 - [ ] add rss service
 - [ ] add web icons
 - [ ] add view images
+- [ ] add copy code
 
 ## Build Setup
 
