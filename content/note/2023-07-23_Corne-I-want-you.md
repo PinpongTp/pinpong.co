@@ -57,4 +57,4 @@ ref : [Jasper is blogging Wireless crkbd with JLC Nylon plate and case (tandy.is
 ---
 
 _Pinpong_ _Tongpat_
-_2023-05-13_
+_2023-07-23_
